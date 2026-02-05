@@ -1,9 +1,42 @@
 body {
     background-image: url(./assets/starfield.webp);
   }
+/* Add a black background color to the top navigation */
+.topnav {
+  width: 100%;
+  /* background-color: #23253d; */
+  overflow: auto;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Courier New", monospace;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #c28ab6;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  /* background-color: #c28ab6; */
+  font-weight: bold;
+  color: white;
+}
+
   h1 {
     color: white;
+    font-family: monospace;
   }
   p {
-    color: pink;
+    color: #c28ab6;
+    font-family: monospace;
   }
